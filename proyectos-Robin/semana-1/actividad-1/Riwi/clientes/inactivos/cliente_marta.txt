@@ -1,0 +1,4 @@
+- Nombre: Martha
+- Empresa: Panadería Marta
+- Estado: Inactivo
+- Correo: marta@example.com

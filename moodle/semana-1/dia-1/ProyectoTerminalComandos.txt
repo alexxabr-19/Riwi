@@ -1,0 +1,55 @@
+cohorte8@RW-0745:~$ pwd
+/home/cohorte8
+cohorte8@RW-0745:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  ProyectoCoder  ProyectoCoders  Public  Templates  Videos  snap
+cohorte8@RW-0745:~$ ls -l
+total 44
+drwxr-xr-x  2 cohorte8 cohorte8 4096 Oct 14 18:47 Desktop
+drwxr-xr-x  5 cohorte8 cohorte8 4096 Oct 14 18:47 Documents
+drwxr-xr-x  6 cohorte8 cohorte8 4096 Oct 14 18:49 Downloads
+drwxr-xr-x  2 cohorte8 cohorte8 4096 Sep 15 16:30 Music
+drwxr-xr-x  3 cohorte8 cohorte8 4096 Sep 23 08:48 Pictures
+drwxrwxr-x  8 cohorte8 cohorte8 4096 Oct 13 13:28 ProyectoCoder
+drwxrwxr-x  2 cohorte8 cohorte8 4096 Oct 13 11:35 ProyectoCoders
+drwxr-xr-x  2 cohorte8 cohorte8 4096 Sep 15 16:30 Public
+drwxr-xr-x  2 cohorte8 cohorte8 4096 Sep 15 16:30 Templates
+drwxr-xr-x  2 cohorte8 cohorte8 4096 Sep 15 16:30 Videos
+drwx------ 10 cohorte8 cohorte8 4096 Oct 14 16:30 snap
+cohorte8@RW-0745:~$ ls -a
+.              .cache                   .cursor  .profile         .vscode-shared  Pictures        Videos
+..             .cloud-locale-test.skip  .dotnet  .pseint          Desktop         ProyectoCoder   snap
+.bash_history  .config                  .gemini  .python_history  Documents       ProyectoCoders
+.bash_logout   .console-ninja           .gnupg   .ssh             Downloads       Public
+.bashrc        .copilot                 .local   .vscode          Music           Templates
+cohorte8@RW-0745:~$ cd Documents
+cohorte8@RW-0745:~/Documents$ mkdir ProyectoTerminal
+cohorte8@RW-0745:~/Documents$ cd ProyectoTerminal
+cohorte8@RW-0745:~/Documents/ProyectoTerminal$ mkdir documentos imagenes scripts
+cohorte8@RW-0745:~/Documents/ProyectoTerminal$ cd documentos
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/documentos$ touch notas.txt tareas.txt
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/documentos$ cd ..
+cohorte8@RW-0745:~/Documents/ProyectoTerminal$ cd imagenes
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/imagenes$ touch logo.png
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/imagenes$ mv logo.png ../documentos/
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/imagenes$ ls
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/imagenes$ cd ..
+cohorte8@RW-0745:~/Documents/ProyectoTerminal$ cd documentos
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/documentos$ ls
+logo.png  notas.txt  tareas.txt
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/documentos$ cp notas.txt notas_backup.txt
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/documentos$ ls
+logo.png  notas.txt  notas_backup.txt  tareas.txt
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/documentos$ mv tareas.txt pendientes.txt
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/documentos$ ls
+logo.png  notas.txt  notas_backup.txt  pendientes.txt
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/documentos$ rm logo.png
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/documentos$ ls
+notas.txt  notas_backup.txt  pendientes.txt
+cohorte8@RW-0745:~/Documents/ProyectoTerminal/documentos$ cd ..
+cohorte8@RW-0745:~/Documents/ProyectoTerminal$ rm -r imagenes
+cohorte8@RW-0745:~/Documents/ProyectoTerminal$ ls
+documentos  scripts
+cohorte8@RW-0745:~/Documents/ProyectoTerminal$ cd ..
+cohorte8@RW-0745:~/Documents$ cd ~
+cohorte8@RW-0745:~$ 
+

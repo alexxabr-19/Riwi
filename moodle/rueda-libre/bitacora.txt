@@ -1,0 +1,89 @@
+URL completa: http://127.0.0.1:5500/index.html
+Protocolo: http
+Host: 127.0.0.1
+Puerto: 5500
+Ruta: /index.html
+Método de petición: GET (lo habitual para cargar una página).
+Código de estado: 304 
+
+Si coloco una ruta que no existe, arroja un código de estado: 404, lo cual significa que
+NO encontró la página o el recurso que estoy buscando (ya que no existe).
+
+HTML: Define la estructura y el contenido del sitio. Ejemplo: usar un encabezado <h1>Rueda Libre</h1> y un párrafo de bienvenida.
+CSS: controla la presentación visual. Ejemplo: dar estilo al encabezado con colores y tipografía de la marca, y adaptar la página a celulares.
+JavaScript: agrega interactividad y comportamiento. Ejemplo: permitir que una persona seleccione una bicicleta y una fecha para consultar su disponibilidad.
+
+
+Rutas del menú:
+
+Archivo de origen | Destino | Ruta escrita
+index.html | Inicio | ./index.html
+index.html | Tarifas y rutas | ./paginas/tarifas.html
+index.html | Reservas | ./paginas/reservas.html
+tarifas.html | Inicio | ../index.html
+tarifas.html | Tarifas y rutas | ./tarifas.html
+tarifas.html | Reservas | ./reservas.html
+reservas.html | Inicio | ../index.html
+reservas.html | Tarifas y rutas | ./tarifas.html
+reservas.html | Reservas | ./reservas.html
+
+Esquema de regiones antes de modificar el HTML:
+
+Inicio (index.html)
+header: nombre del negocio + navegación principal
+main:
+  section: quiénes somos
+  section: servicios
+    article: alquiler de bicicletas
+    article: rutas guiadas
+    article: accesorios y repuestos
+  section: beneficios
+  section: cómo alquilar
+  section: tarifas
+  section: encuéntranos
+footer: nombre del negocio + correo + año
+
+Tarifas y rutas (paginas/tarifas.html)
+header: nombre del negocio + navegación principal
+main:
+  section: tarifas de bicicletas + tabla
+  section: recorridos disponibles + tabla
+  aside: información adicional + qué llevar
+footer: nombre del negocio + correo + año
+
+Reservas (paginas/reservas.html)
+header: nombre del negocio + navegación principal
+main:
+  sección de reserva y contacto
+  aside: horario de atención
+footer: nombre del negocio + correo + año
+
+Decisiones del formulario de reservas:
+- Usé una lista desplegable para elegir la bicicleta, así solo se puede escoger entre los tipos disponibles.
+- Usé un campo de fecha para seleccionar el día del alquiler sin tener que escribirlo a mano.
+- Usé una casilla para confirmar que se aceptan las políticas antes de enviar la reserva.
+
+Pruebas de validación del formulario
+
+
+Campo | Dato de prueba | Resultado esperado | Resultado obtenido
+Nombre completo | Ana | Acepta el nombre porque tiene 3 caracteres. |
+Nombre completo | Al | No permite enviar porque tiene menos de 3 caracteres. | Aumenta la longitud del texto a 3 caracteres como mínimo (actualmente, el texto tiene 2 caracteres)
+Documento | 12345 | No permite enviar porque tiene menos de 6 dígitos. |
+Documento | 123456 | Acepta el documento porque tiene 6 dígitos. | Aumenta la longitud del texto a 6 caracteres como mínimo(actualmente, el texto tiene 5 caracteres)
+Correo | correo | No permite enviar porque no tiene formato de correo válido. | Incluye un signo "@" en la dirección de correo electrónico. La dirección "correo" no incluye el signo "@".
+Celular | 2123456789 | No permite enviar porque no empieza por 3. | Utiliza un formato que coincida con el solicitado 
+Debe iniciar su número por 3 y debe contener 10 dígitos
+Celular | 3123456789 | Acepta el celular porque empieza por 3 y tiene 10 dígitos. |
+Fecha del alquiler | 2026-10-31 | No permite enviar porque es anterior al 1 de noviembre de 2026. | El valor debe ser igual o posterior a 01/11/2026
+Fecha del alquiler | 2026-11-01 | Acepta la fecha porque está dentro del período permitido. |
+Cantidad de bicicletas | 7 | No permite enviar porque supera el máximo de 6. | El valor debe ser inferior o igual a 6
+Comentarios | 301 caracteres | No permite escribir más de 300 caracteres. |
+Políticas de alquiler | Casilla sin marcar | No permite enviar mientras la casilla esté desmarcada. | Selecciona esta casilla de verificación si quieres continuar
+
+Aún no tengo muy claro lo de la herencia (Reto día 3 - parte 1) y me falta hacer también el (Reto día 2 - parte 4)
+Mapa de uso de color: usaré crema (#FAF6EF) para los fondos; gris asfalto (#5B6470) para el texto normal; 
+azul noche (#14213D) para títulos; verde ruta (#1E7A4F) para navegación, para el menú; 
+y naranja pedal (#F39A2B) para los botones y enlances con la etiqueta a.
+
+URL: https://alexxabr-19.github.io/rueda-libre/

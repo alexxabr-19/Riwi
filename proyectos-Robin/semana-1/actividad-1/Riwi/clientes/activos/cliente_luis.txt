@@ -1,0 +1,4 @@
+- Nombre: Luis
+- Empresa: Panadería Luis
+- Estado: Activo 
+- Correo: luis@example.com

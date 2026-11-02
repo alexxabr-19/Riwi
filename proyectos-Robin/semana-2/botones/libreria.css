@@ -1,0 +1,196 @@
+.btn {
+    border-radius: 4px;
+    border-style: hidden;
+    padding: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+header {
+    text-align: center;
+}
+
+/* 1. Fundamentos y colores - básico */
+
+.btn-primary {
+    background-color: #1565C0;
+    color: #FFFFFF;
+}
+
+.btn-secondary {
+    background-color: #D1D5DB;
+    color: #111827;
+}
+
+.btn-success {
+    background-color: #16703C;
+    color: #FFFFFF;
+}
+
+.btn-danger {
+    background-color: #B91C1C;
+    color: #FFFFFF;
+}
+
+.btn-warning {
+    background-color: #FACC15;
+    color: #111827;
+}
+
+.btn-info {
+    background-color: #67E8F9;
+    color: #111827;
+}
+
+.btn-dark {
+    background-color: #1F2937;
+    color: #FFFFFF;
+}
+
+.btn-light {
+    background-color: #F9FAFB;
+    color: #111827;
+    border-color: #6B7280;
+}
+
+.btn-text {
+    background-color: transparent;
+    color: #1565C0;
+    border: none;
+}
+
+.btn-custom {
+    background-color: #6D28D9;
+    color: #FFFFFF;
+}
+
+
+/* 2. Bordes, tamaños y formas — básico */
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid black;
+    color: #1565C0;
+}
+
+.btn-border-thick {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    border: 4px solid black;
+}
+
+.btn-border-dashed {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    border-style: dashed;
+}
+
+.btn-border-dotted {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    border-style: dotted;
+}
+
+.btn-rounded {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.btn-pill {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    border-radius: 9999px;
+}
+
+.btn-circle {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.btn-small {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 3px 6px;
+}
+
+.btn-large {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 12px 24px;
+}
+
+.btn-full {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 300px;
+    display: block;
+}
+
+/* 3. Tipografía y sombras — básico a intermedio */
+
+.btn-uppercase {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.btn-spaced {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+}
+
+.btn-bold {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.btn-elegant {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #1565C0;
+    color: #FFFFFF;
+}
+
+.btn-underline {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.btn-shadow-soft {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    box-shadow: 0 2px 4px gray;
+}
+
+.btn-shadow-strong {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    box-shadow: 0 10px 15px gray;
+}
+
+.btn-shadow-color {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    box-shadow: 0 4px 10px #1565C0;
+}
+
+.btn-relief {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    box-shadow: 0 4px gray, 0 6px black;
+}
+
+.btn-text-glow {
+    background-color: #111827;
+    color: #FFFFFF;
+    text-shadow: 0 0 8px #67E8F9;
+}

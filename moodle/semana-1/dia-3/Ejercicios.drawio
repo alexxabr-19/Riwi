@@ -1,0 +1,469 @@
+<mxfile host="app.diagrams.net" pages="6">
+  <diagram id="N5jCPgNyDLDQixcH0824" name="Ejercicio_01">
+    <mxGraphModel dx="1351" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-1" edge="1" parent="1" source="-PxFZcPPv36UPaMAKEHo-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-PxFZcPPv36UPaMAKEHo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Inicio&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="351.25" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ejercicio_01: Preparar un Sándich&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="400" x="200" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-4" edge="1" parent="1" source="-PxFZcPPv36UPaMAKEHo-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-PxFZcPPv36UPaMAKEHo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Buscar los ingredientes (pan, queso, mantequilla y jamón) y los utensilios (plato, cuchillo y sandwichera).&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-6" edge="1" parent="1" source="-PxFZcPPv36UPaMAKEHo-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-PxFZcPPv36UPaMAKEHo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Untar la mantequilla con el cuchillo en los dos panes.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-8" edge="1" parent="1" source="-PxFZcPPv36UPaMAKEHo-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-PxFZcPPv36UPaMAKEHo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Abrir la sandwichera.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-10" edge="1" parent="1" source="-PxFZcPPv36UPaMAKEHo-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-PxFZcPPv36UPaMAKEHo-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Colocar uno de los panes untados de mantequilla en la sandwichera.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-12" edge="1" parent="1" source="-PxFZcPPv36UPaMAKEHo-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-PxFZcPPv36UPaMAKEHo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Colocar una lonja de jamón sobre el pan que está en la sandwichera.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-14" edge="1" parent="1" source="-PxFZcPPv36UPaMAKEHo-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-PxFZcPPv36UPaMAKEHo-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Colocar una lonja de queso sobre el jamón.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-16" edge="1" parent="1" source="-PxFZcPPv36UPaMAKEHo-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-PxFZcPPv36UPaMAKEHo-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Colocar el otro pan sobre el queso.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-18" edge="1" parent="1" source="-PxFZcPPv36UPaMAKEHo-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-PxFZcPPv36UPaMAKEHo-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Cerrar la sandwichera y conectarla.&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-20" edge="1" parent="1" source="-PxFZcPPv36UPaMAKEHo-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-PxFZcPPv36UPaMAKEHo-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-21" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Abrir la sandwichera, s&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;acar el sándwich cuando esté listo y ponerlo en el plato.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-22" edge="1" parent="1" source="-PxFZcPPv36UPaMAKEHo-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-PxFZcPPv36UPaMAKEHo-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-23" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Desconectar la sandwichera.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="-PxFZcPPv36UPaMAKEHo-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Fin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="351.25" y="2020" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Ejercicio_02" id="dP5_OZBq1GHh2DYgRynX">
+    <mxGraphModel dx="1351" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-0" />
+        <mxCell id="6HdIXauWi5d46qS5ofeg-1" parent="6HdIXauWi5d46qS5ofeg-0" />
+        <mxCell id="6HdIXauWi5d46qS5ofeg-2" edge="1" parent="6HdIXauWi5d46qS5ofeg-1" source="6HdIXauWi5d46qS5ofeg-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="6HdIXauWi5d46qS5ofeg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-3" parent="6HdIXauWi5d46qS5ofeg-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Inicio&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="351.25" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-4" parent="6HdIXauWi5d46qS5ofeg-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ejercicio_02: Organizar la mochila para la escuela.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="640" x="105" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-5" edge="1" parent="6HdIXauWi5d46qS5ofeg-1" source="6HdIXauWi5d46qS5ofeg-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="6HdIXauWi5d46qS5ofeg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-6" parent="6HdIXauWi5d46qS5ofeg-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Revisar qué clases tengo y qué materiales necesito llevar a la escuela.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-7" edge="1" parent="6HdIXauWi5d46qS5ofeg-1" source="6HdIXauWi5d46qS5ofeg-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="6HdIXauWi5d46qS5ofeg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-8" parent="6HdIXauWi5d46qS5ofeg-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Buscar las cosas que voy a llevar (cuadernos, cartuchera, termo, llaves y cosas de aseo).&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-9" edge="1" parent="6HdIXauWi5d46qS5ofeg-1" source="6HdIXauWi5d46qS5ofeg-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="6HdIXauWi5d46qS5ofeg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-10" parent="6HdIXauWi5d46qS5ofeg-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Abrir la mochila y revisar que esté vacía.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-11" edge="1" parent="6HdIXauWi5d46qS5ofeg-1" source="6HdIXauWi5d46qS5ofeg-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="6HdIXauWi5d46qS5ofeg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-12" parent="6HdIXauWi5d46qS5ofeg-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Guardar los cuadernos dentro de la mochila.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-13" edge="1" parent="6HdIXauWi5d46qS5ofeg-1" source="6HdIXauWi5d46qS5ofeg-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="6HdIXauWi5d46qS5ofeg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-14" parent="6HdIXauWi5d46qS5ofeg-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Guardar la cartuchera junto con los cuadernos.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-15" edge="1" parent="6HdIXauWi5d46qS5ofeg-1" source="6HdIXauWi5d46qS5ofeg-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="6HdIXauWi5d46qS5ofeg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-16" parent="6HdIXauWi5d46qS5ofeg-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Guardar las cosas de aseo en un bolsillo de la mochila.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-17" edge="1" parent="6HdIXauWi5d46qS5ofeg-1" source="6HdIXauWi5d46qS5ofeg-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="6HdIXauWi5d46qS5ofeg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-18" parent="6HdIXauWi5d46qS5ofeg-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Guardar el termo en el bolsillo lateral de la mochila.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-19" edge="1" parent="6HdIXauWi5d46qS5ofeg-1" source="6HdIXauWi5d46qS5ofeg-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="6HdIXauWi5d46qS5ofeg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-20" parent="6HdIXauWi5d46qS5ofeg-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Guardar las llaves en un bolsillo seguro y cerrar la mochila.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="e_-XqdVv1_HFTTq1Nqcm-0" edge="1" parent="6HdIXauWi5d46qS5ofeg-1" source="6HdIXauWi5d46qS5ofeg-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="6HdIXauWi5d46qS5ofeg-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-22" parent="6HdIXauWi5d46qS5ofeg-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Revisar que no me falte nada y que todo esté listo para salir a la escuela.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="250" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="6HdIXauWi5d46qS5ofeg-25" parent="6HdIXauWi5d46qS5ofeg-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Fin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="351.25" y="1830" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="q_Jz4I7YEa8pAvrBVcbP" name="Ejercicio_03">
+    <mxGraphModel dx="1351" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-rEWOK-634rfoX-I2lfR-1" edge="1" parent="1" source="-rEWOK-634rfoX-I2lfR-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-rEWOK-634rfoX-I2lfR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Inicio&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="391.25" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ejercicio_03: Publicar una foto en redes sociales&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="580" x="141.25" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-4" edge="1" parent="1" source="-rEWOK-634rfoX-I2lfR-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-rEWOK-634rfoX-I2lfR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Tomar y desbloquear el celular.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="290" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-6" edge="1" parent="1" source="-rEWOK-634rfoX-I2lfR-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-rEWOK-634rfoX-I2lfR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Buscar la foto que quiero publicar, ubicarla en la galería.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="290" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-8" edge="1" parent="1" source="-rEWOK-634rfoX-I2lfR-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-rEWOK-634rfoX-I2lfR-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Abrir la red social en la que quiero publicar la foto.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="290" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-10" edge="1" parent="1" source="-rEWOK-634rfoX-I2lfR-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-rEWOK-634rfoX-I2lfR-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Iniciar sesión si es necesario.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="290" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-12" edge="1" parent="1" source="-rEWOK-634rfoX-I2lfR-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-rEWOK-634rfoX-I2lfR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Presionar el botón para crear una nueva publicación.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="290" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-14" edge="1" parent="1" source="-rEWOK-634rfoX-I2lfR-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-rEWOK-634rfoX-I2lfR-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Seleccionar la foto que quiero subir.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="290" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-16" edge="1" parent="1" source="-rEWOK-634rfoX-I2lfR-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-rEWOK-634rfoX-I2lfR-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Editar la foto o aplicarle un filtro si así lo deseo.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="290" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-18" edge="1" parent="1" source="-rEWOK-634rfoX-I2lfR-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-rEWOK-634rfoX-I2lfR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Escribir una descripción para la foto, si quiero agregarla.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="290" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-20" edge="1" parent="1" source="-rEWOK-634rfoX-I2lfR-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-rEWOK-634rfoX-I2lfR-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-21" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Revisar que la foto y la descripción estén bien.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="290" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-22" edge="1" parent="1" source="-rEWOK-634rfoX-I2lfR-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-rEWOK-634rfoX-I2lfR-25">
+          <mxGeometry relative="1" x="-0.2222" as="geometry">
+            <mxPoint x="431.25" y="2010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-23" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Presionar el botón &quot;Publicar&quot;.&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="290" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-27" edge="1" parent="1" source="-rEWOK-634rfoX-I2lfR-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="-rEWOK-634rfoX-I2lfR-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-25" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Esperar a que la foto se suba y revisar que aparezca en mi perfil.&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="290" y="2030" as="geometry" />
+        </mxCell>
+        <mxCell id="-rEWOK-634rfoX-I2lfR-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Fin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="391.25" y="2220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8hNNvMN1Of6kSysaFKgZ" name="Ejercicio_04">
+    <mxGraphModel dx="1351" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-1" edge="1" parent="1" source="Dsi5t0VRysoVCHjX5Hlt-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Dsi5t0VRysoVCHjX5Hlt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Inicio&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="361.25" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ejercicio_04: Hacer una llamada telefónica&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="530" x="170" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-4" edge="1" parent="1" source="Dsi5t0VRysoVCHjX5Hlt-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Dsi5t0VRysoVCHjX5Hlt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Buscar el celular.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-6" edge="1" parent="1" source="Dsi5t0VRysoVCHjX5Hlt-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Dsi5t0VRysoVCHjX5Hlt-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Encender el celular y desbloquearlo.&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-decoration-line: inherit;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-8" edge="1" parent="1" source="Dsi5t0VRysoVCHjX5Hlt-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Dsi5t0VRysoVCHjX5Hlt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Abrir la aplicación de llamadas.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-10" edge="1" parent="1" source="Dsi5t0VRysoVCHjX5Hlt-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Dsi5t0VRysoVCHjX5Hlt-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Buscar el nombre de la persona a quien deseo llamar en la lista de contactos.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-12" edge="1" parent="1" source="Dsi5t0VRysoVCHjX5Hlt-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Dsi5t0VRysoVCHjX5Hlt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Verificar que el nombre del contacto sea correcto.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-14" edge="1" parent="1" source="Dsi5t0VRysoVCHjX5Hlt-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Dsi5t0VRysoVCHjX5Hlt-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Presionar el botón verde para llamar.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-16" edge="1" parent="1" source="Dsi5t0VRysoVCHjX5Hlt-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Dsi5t0VRysoVCHjX5Hlt-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Esperar a que la persona conteste y hablar con ella.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-23" edge="1" parent="1" source="Dsi5t0VRysoVCHjX5Hlt-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Dsi5t0VRysoVCHjX5Hlt-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Finalizar la llamada presionando el botón rojo.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="Dsi5t0VRysoVCHjX5Hlt-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Fin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="361.25" y="1650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Ejercicio_05" id="owVTnF3bxAeCOO3_lhqC">
+    <mxGraphModel dx="1351" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-0" />
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-1" parent="Lz_LfhxLJgTanJN7vhWL-0" />
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-2" edge="1" parent="Lz_LfhxLJgTanJN7vhWL-1" source="Lz_LfhxLJgTanJN7vhWL-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Lz_LfhxLJgTanJN7vhWL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-3" parent="Lz_LfhxLJgTanJN7vhWL-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Inicio&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="361.25" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-4" parent="Lz_LfhxLJgTanJN7vhWL-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ejercicio_05: Pagar un producto.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="378.75" x="211.88" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-5" edge="1" parent="Lz_LfhxLJgTanJN7vhWL-1" source="Lz_LfhxLJgTanJN7vhWL-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Lz_LfhxLJgTanJN7vhWL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-6" parent="Lz_LfhxLJgTanJN7vhWL-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Tomo el dinero que voy a utilizar para pagar.&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-7" edge="1" parent="Lz_LfhxLJgTanJN7vhWL-1" source="Lz_LfhxLJgTanJN7vhWL-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Lz_LfhxLJgTanJN7vhWL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-8" parent="Lz_LfhxLJgTanJN7vhWL-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Elijo el producto que quiero comprar.&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-9" edge="1" parent="Lz_LfhxLJgTanJN7vhWL-1" source="Lz_LfhxLJgTanJN7vhWL-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Lz_LfhxLJgTanJN7vhWL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-10" parent="Lz_LfhxLJgTanJN7vhWL-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Me dirijo a la caja.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-11" edge="1" parent="Lz_LfhxLJgTanJN7vhWL-1" source="Lz_LfhxLJgTanJN7vhWL-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Lz_LfhxLJgTanJN7vhWL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-12" parent="Lz_LfhxLJgTanJN7vhWL-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Espero mi turno para pagar.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-13" edge="1" parent="Lz_LfhxLJgTanJN7vhWL-1" source="Lz_LfhxLJgTanJN7vhWL-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Lz_LfhxLJgTanJN7vhWL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-14" parent="Lz_LfhxLJgTanJN7vhWL-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Entrego el dinero al cajero.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="LPPyGT3J5Cc1Fn-CJNBZ-0" edge="1" parent="Lz_LfhxLJgTanJN7vhWL-1" source="Lz_LfhxLJgTanJN7vhWL-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Lz_LfhxLJgTanJN7vhWL-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-16" parent="Lz_LfhxLJgTanJN7vhWL-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Recibo el cambio, si corresponde, y el producto comprado.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-19" edge="1" parent="Lz_LfhxLJgTanJN7vhWL-1" source="Lz_LfhxLJgTanJN7vhWL-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Lz_LfhxLJgTanJN7vhWL-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-20" parent="Lz_LfhxLJgTanJN7vhWL-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Salgo de la tienda.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="282.5" x="260" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="Lz_LfhxLJgTanJN7vhWL-21" parent="Lz_LfhxLJgTanJN7vhWL-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Fin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="361.25" y="1500" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fniGrIZyGFVPEP7sav0Y" name="Ejercicio_06">
+    <mxGraphModel dx="1351" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-1" edge="1" parent="1" source="Zia8ZftlJN2SvsPrlCzL-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Zia8ZftlJN2SvsPrlCzL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Inicio&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="227.5" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-3" edge="1" parent="1" source="Zia8ZftlJN2SvsPrlCzL-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Zia8ZftlJN2SvsPrlCzL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-4" connectable="0" parent="Zia8ZftlJN2SvsPrlCzL-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" value="SÍ" vertex="1">
+          <mxGeometry relative="1" x="-0.0679" y="6" as="geometry">
+            <mxPoint x="-10" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-5" edge="1" parent="1" source="Zia8ZftlJN2SvsPrlCzL-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Zia8ZftlJN2SvsPrlCzL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-6" connectable="0" parent="Zia8ZftlJN2SvsPrlCzL-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.083" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;¿edad &amp;gt;= 18?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="175" x="190" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Fin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="516.25" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-9" edge="1" parent="1" source="Zia8ZftlJN2SvsPrlCzL-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Zia8ZftlJN2SvsPrlCzL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;edad&lt;/font&gt;" vertex="1">
+          <mxGeometry height="76.5" width="137.49" x="208.75" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-11" edge="1" parent="1" source="Zia8ZftlJN2SvsPrlCzL-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Zia8ZftlJN2SvsPrlCzL-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="278" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&quot;Se permite la entrada.&quot;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="175" x="190" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-13" edge="1" parent="1" source="Zia8ZftlJN2SvsPrlCzL-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Zia8ZftlJN2SvsPrlCzL-24">
+          <mxGeometry relative="1" x="0.002" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="495" />
+            </Array>
+            <mxPoint x="773.75" y="491.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-14" connectable="0" parent="Zia8ZftlJN2SvsPrlCzL-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.722" y="-3" as="geometry">
+            <mxPoint x="163" y="52" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-15" edge="1" parent="1" source="Zia8ZftlJN2SvsPrlCzL-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Zia8ZftlJN2SvsPrlCzL-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-16" connectable="0" parent="Zia8ZftlJN2SvsPrlCzL-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" value="SÍ" vertex="1">
+          <mxGeometry relative="1" x="-0.1359" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-17" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;¿edad &amp;gt;= 13? y ¿edad &amp;gt;=17?&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="145" width="175" x="478.75" y="422.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-23" edge="1" parent="1" source="Zia8ZftlJN2SvsPrlCzL-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Zia8ZftlJN2SvsPrlCzL-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-24" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&quot;Se deniega la entrada.&quot;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="175" x="782.5" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-25" edge="1" parent="1" source="Zia8ZftlJN2SvsPrlCzL-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Zia8ZftlJN2SvsPrlCzL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zia8ZftlJN2SvsPrlCzL-26" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&quot;Requiere permiso de un adulto para entrar.&quot;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="192.5" x="470" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="74xBD9movhPIZX64FaQ0-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ejercicio_06: Validar la edad para entrar a un evento&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="620" x="80" y="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

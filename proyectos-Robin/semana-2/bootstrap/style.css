@@ -1,0 +1,37 @@
+:root {
+    --azulClaro: #1abc9c;
+    --azulOscuro: #2c3e50;
+}
+
+.bg-azul-claro {
+    background-color: var(--azulClaro);
+}
+
+.bg-azul-oscuro {
+    background-color: var(--azulOscuro);
+}
+
+.pt-7 {
+    padding-top: 5rem !important;
+}
+
+.pb-7 {
+    padding-bottom: 5rem !important;
+}
+
+.px-9 {
+    padding-left: 7rem !important;
+    padding-right: 7rem !important;
+}
+
+.display-9 {
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: calc(0.720rem + 0.8vw);
+}
+
+.display-12 {
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: calc(0.480rem + 0.6vw);
+}

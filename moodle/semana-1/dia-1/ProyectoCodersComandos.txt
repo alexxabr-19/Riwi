@@ -1,0 +1,68 @@
+cohorte8@RW-0745:~/Documents$ mkdir ProyectoCoders
+cohorte8@RW-0745:~/Documents$ ls
+ProyectoCoders  proyecto  python
+cohorte8@RW-0745:~/Documents$ cd ProyectoCoders
+cohorte8@RW-0745:~/Documents/ProyectoCoders$ mkdir src assets docs tests config backup
+cohorte8@RW-0745:~/Documents/ProyectoCoders$ ls
+assets  backup  config  docs  src  tests
+cohorte8@RW-0745:~/Documents/ProyectoCoders$ cd src
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ touch app.txt database.txt functions.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ ls
+app.txt  database.txt  functions.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ cd ..
+cohorte8@RW-0745:~/Documents/ProyectoCoders$ cd docs
+cohorte8@RW-0745:~/Documents/ProyectoCoders/docs$ touch README.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/docs$ echo "Aplicación para la gestión de citas de un spa" > README.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/docs$ ls
+README.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/docs$ cat README.txt
+Aplicación para la gestión de citas de un spa
+cohorte8@RW-0745:~/Documents/ProyectoCoders/docs$ cd ..
+cohorte8@RW-0745:~/Documents/ProyectoCoders$ cd config
+cohorte8@RW-0745:~/Documents/ProyectoCoders/config$ touch settings.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/config$ echo -e "- Configuración 1\n- Configuración 2" >> settings.txtcohorte8@RW-0745:~/Documents/ProyectoCoders/config$ ls
+settings.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/config$ cat settings.txt
+- Configuración 1
+- Configuración 2
+cohorte8@RW-0745:~/Documents/ProyectoCoders/config$ cp settings.txt ../backup/
+cohorte8@RW-0745:~/Documents/ProyectoCoders/config$ cd ..
+cohorte8@RW-0745:~/Documents/ProyectoCoders$ cd backup
+cohorte8@RW-0745:~/Documents/ProyectoCoders/backup$ ls
+settings.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/backup$ cd ..
+cohorte8@RW-0745:~/Documents/ProyectoCoders$ cd src
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ mkdir database
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ ls
+app.txt  database  database.txt  functions.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ mv database.txt database
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ ls
+app.txt  database  functions.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ cd database
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src/database$ ls
+database.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src/database$ cd ..
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ cp functions.txt ../backup/
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ cd ..
+cohorte8@RW-0745:~/Documents/ProyectoCoders$ cd backup
+cohorte8@RW-0745:~/Documents/ProyectoCoders/backup$ ls
+functions.txt  settings.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/backup$ cd ..
+cohorte8@RW-0745:~/Documents/ProyectoCoders$ cd src
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ ls
+app.txt  database  functions.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ mv app.txt main.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ ls
+database  functions.txt  main.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ rm functions.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ ls
+database  main.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/src$ cd ..
+cohorte8@RW-0745:~/Documents/ProyectoCoders$ cd backup
+cohorte8@RW-0745:~/Documents/ProyectoCoders/backup$ ls
+functions.txt  settings.txt
+cohorte8@RW-0745:~/Documents/ProyectoCoders/backup$ cd ..
+cohorte8@RW-0745:~/Documents/ProyectoCoders$ cd ~
+cohorte8@RW-0745:~$ 
+
+

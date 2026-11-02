@@ -1,0 +1,5 @@
+1. Ana dejó de ser usuario activo.
+2. LA factura_001 fue pagada
+3. El proyecto móvil fue cancelado.
+4. App_domicilios.txt fue movido a archivados. 
+5. Se creó el resumen de octubre.
