@@ -194,3 +194,168 @@ header {
     color: #FFFFFF;
     text-shadow: 0 0 8px #67E8F9;
 }
+
+/* 4. Degradados — intermedio */
+
+.btn-gradient-horizontal{
+    background: linear-gradient(to right, #1E3A8A, #6D28D9);
+    color: #FFFFFF;
+}
+
+.btn-gradient-vertical{
+    background: linear-gradient(to bottom, #064E3B, #0F766E);
+    color: #FFFFFF;
+}
+
+.btn-gradient-diagonal{
+    background: linear-gradient(to bottom right, #7F1D1D , #9A3412);
+    color: #FFFFFF;
+}
+
+.btn-gradient-three{
+    background: linear-gradient(45deg, #1E3A8A, #6D28D9, #9D174D);
+    color: #FFFFFF;
+}
+
+.btn-gradient-radial{
+    background: radial-gradient(circle, #115E59, #134E4A);
+    color: #FFFFFF;
+}
+
+.btn-gradient-sunset{
+    background: linear-gradient(to right, #7F1D1D, #9A3412, #B45309);
+    color: #FFFFFF;
+}
+
+.btn-gradient-ocean{
+    background: linear-gradient(to right, #075985, #065F46);
+    color: #FFFFFF;
+}
+
+.btn-gradient-pastel{
+    background: linear-gradient(to right, #FBCFE8 , #DDD6FE);
+    color: #111827;
+}
+
+.btn-gradient-border{
+    border: 2px solid transparent;
+    background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, 
+    linear-gradient(to right, #1565C0 , #6D28D9) border-box;
+    color: #111827;
+}
+
+.btn-gradient-hover {
+    background: linear-gradient(to right, #1E3A8A, #6D28D9);
+    background-size: 200% 100%;
+    background-position: left;
+    color: #FFFFFF;
+    transition: background-position 0.5s;
+}
+
+.btn-gradient-hover:hover {
+    background-position: right;
+}
+
+
+/* 5. Estados e interacción — intermedio */
+
+.btn-hover-background {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: background-color 0.3s;
+}
+
+.btn-hover-background:hover {
+    background-color: #0D47A1;
+}
+
+.btn-hover-text {
+    background-color: #FFFFFF;
+    color: #1565C0;
+    transition: color 0.3s;
+}
+
+.btn-hover-text:hover {
+    color: #6D28D9;
+}
+
+.btn-hover-border {
+    background-color: #FFFFFF;
+    color: #111827;
+    border: 2px solid #1565C0;
+    transition: border-color 0.3s;
+}
+
+.btn-hover-border:hover {
+    border-color: #6D28D9;
+}
+
+.btn-hover-shadow {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: box-shadow 0.3s;
+}
+
+.btn-hover-shadow:hover {
+    box-shadow: 0 5px 10px #0D47A1;
+}
+
+.btn-hover-underline {
+    background-color: #FFFFFF;
+    color: #1565C0;
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.btn-hover-underline:hover {
+    border-bottom-color: #1565C0;
+}
+
+.btn-active {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: background-color 0.2s;
+}
+
+.btn-active:active {
+    background-color: #0D47A1;
+}
+
+.btn-focus {
+    background-color: #1565C0;
+    color: #FFFFFF;
+}
+
+.btn-focus:focus-visible {
+    outline: 3px solid #111827;
+    outline-offset: 3px;
+}
+
+.btn-disabled {
+    background-color: #E5E7EB;
+    color: #4B5563;
+    cursor: not-allowed;
+}
+
+.btn-transition-slow {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: background-color 1s, transform 1s;
+}
+
+.btn-transition-slow:hover {
+    background-color: #6D28D9;
+    transform: scale(1.1);
+}
+
+.btn-transition-stagger {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: background-color 0.5s, transform 0.5s 0.3s;
+}
+
+.btn-transition-stagger:hover {
+    background-color: #6D28D9;
+    transform: scale(1.1);
+}
