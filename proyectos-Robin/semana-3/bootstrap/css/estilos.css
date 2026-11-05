@@ -1,7 +1,11 @@
 :root {
-  --color: #bbbbbb;
+  --color-fondo: #bbbbbb; /* gris del tema claro */
 }
 
-body{
-    background-color: var(--color);
+:root[data-bs-theme="dark"] {
+  --color-fondo: #212529; /* fondo oscuro */
+}
+
+body {
+  background-color: var(--color-fondo);
 }
