@@ -359,3 +359,136 @@ header {
     background-color: #6D28D9;
     transform: scale(1.1);
 }
+
+
+/* 6. Transformaciones — intermedio*/
+
+.btn-grow {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: transform 0.3s;
+}
+
+.btn-grow:hover {
+    transform: scale(1.4);
+}
+
+.btn-shrink{
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: transform 0.3s;
+}
+
+.btn-shrink:hover{
+    transform: scale(0.7);
+}
+
+.btn-lift{
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: transform 0.3s;
+}
+
+.btn-lift:hover {
+    transform: translateY(-7px);
+}
+
+.btn-move-right{
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: transform 0.3s;
+}
+
+.btn-move-right:hover{
+    transform: translateX(7px);
+}
+
+.btn-rotate{
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: transform 0.3s;
+}
+
+.btn-rotate:hover{
+    transform: rotate(90deg);
+}
+
+.btn-skew {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: transform 0.3s;
+}
+
+.btn-skew:hover {
+    transform: skew(10deg);
+}
+
+.btn-press{
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: transform 0.3s;
+}
+
+.btn-press:active {
+    transform: translateY(3px);
+}
+
+.btn-perspective{
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: transform 0.3s;
+}
+
+.btn-perspective:hover{
+    transform: perspective(500px) rotateX(20deg);
+}
+
+.btn-icon-move {
+    background-color: #1565C0;
+    color: #FFFFFF;
+}
+
+.btn-icon-move span {
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.btn-icon-move:hover span {
+    transform: translateX(5px);
+}
+
+.btn-transform-combined {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-transform-combined:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 12px #111827;
+}
+
+
+/* 7. Iconos e imágenes — intermedio a avanzado */
+.btn-icon-left {
+  background-color: #1565C0;
+  color: #FFFFFF;
+}
+
+.btn-icon-right {
+  background-color: #1565C0;
+  color: #FFFFFF;
+}
+
+.btn-icon-only {
+  background-color: #1565C0;
+  color: #FFFFFF;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.btn-download {
+  background-color: #1565C0;
+  color: #FFFFFF;
+}
