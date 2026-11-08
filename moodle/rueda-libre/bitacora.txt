@@ -1,7 +1,5 @@
 SEMANA 1 - DÍA 1
 
-punto 4.
-
 URL completa: http://127.0.0.1:5500/Riwi/moodle/rueda-libre/index.html
 Protocolo: http
 Host: 127.0.0.1
@@ -11,15 +9,24 @@ Método de petición: GET.
 Código de estado: 200 -> pero para mostralo, tuve que activar en Network el 'Disable caché'
 
 
-punto 5.
-
 Si coloco una ruta que no existe, arroja un código de estado: 404, lo cual significa que
 NO encontró la página o el recurso que estoy buscando (ya que no existe).
 
 
-punto 6. 
-
 En mi proyecto, html definirá la estructura y el contenido del sitio. Por ejemplo: para usar un encabezado <h1>Rueda Libre</h1> y un párrafo de bienvenida.
 El css, controlará la presentación visual. Por ejemplo: para dar estilo al encabezado con colores y tipografía de la marca, y adaptar la página a celulares.
 Finalmente, el javascript agregará interactividad y comportamiento. Por ejemplo: para permitir que una persona seleccione una bicicleta y una fecha para consultar su disponibilidad.
+
+
+Rutas del menú:
+Archivo de origen | Destino | Ruta escrita
+index.html | Inicio | ./index.html
+index.html | Tarifas y rutas | ./paginas/tarifas.html
+index.html | Reservas | ./paginas/reservas.html
+tarifas.html | Inicio | ../index.html
+tarifas.html | Tarifas y rutas | ./tarifas.html
+tarifas.html | Reservas | ./reservas.html
+reservas.html | Inicio | ../index.html
+reservas.html | Tarifas y rutas | ./tarifas.html
+reservas.html | Reservas | ./reservas.html
 
