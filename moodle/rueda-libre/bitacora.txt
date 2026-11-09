@@ -1,22 +1,19 @@
 SEMANA 1 - DÍA 1
 
-URL completa: http://127.0.0.1:5500/Riwi/moodle/rueda-libre/index.html
+URL completa: http://127.0.0.1:5500/index.html
 Protocolo: http
 Host: 127.0.0.1
 Puerto: 5500
-Ruta: /Riwi/moodle/rueda-libre/index.html
+Ruta: /index.html
 Método de petición: GET.
 Código de estado: 200 -> pero para mostralo, tuve que activar en Network el 'Disable caché'
-
 
 Si coloco una ruta que no existe, arroja un código de estado: 404, lo cual significa que
 NO encontró la página o el recurso que estoy buscando (ya que no existe).
 
-
 En mi proyecto, html definirá la estructura y el contenido del sitio. Por ejemplo: para usar un encabezado <h1>Rueda Libre</h1> y un párrafo de bienvenida.
 El css, controlará la presentación visual. Por ejemplo: para dar estilo al encabezado con colores y tipografía de la marca, y adaptar la página a celulares.
 Finalmente, el javascript agregará interactividad y comportamiento. Por ejemplo: para permitir que una persona seleccione una bicicleta y una fecha para consultar su disponibilidad.
-
 
 Rutas del menú:
 Archivo de origen | Destino | Ruta escrita
@@ -30,3 +27,153 @@ reservas.html | Inicio | ../index.html
 reservas.html | Tarifas y rutas | ./tarifas.html
 reservas.html | Reservas | ./reservas.html
 
+
+
+SEMANA 1 - DÍA 2
+
+Esquema de regiones antes de modificar el HTML:
+
+Inicio (index.html)
+header: nombre del negocio + navegación principal
+main:
+  section: quiénes somos
+  section: servicios
+    article: alquiler de bicicletas
+    article: rutas guiadas
+    article: accesorios y repuestos
+  section: beneficios
+  section: cómo alquilar
+  section: tarifas
+  section: encuéntranos
+footer: nombre del negocio + correo + año
+
+Tarifas y rutas (paginas/tarifas.html)
+header: nombre del negocio + navegación principal
+main:
+  section: tarifas de bicicletas + tabla
+  section: recorridos disponibles + tabla
+  aside: información adicional + qué llevar
+footer: nombre del negocio + correo + año
+
+Reservas (paginas/reservas.html)
+header: nombre del negocio + navegación principal
+main:
+  sección de reserva y contacto
+  aside: horario de atención
+footer: nombre del negocio + correo + año
+
+
+Decisiones del formulario de reservas:
+- Usé una lista desplegable para elegir la bicicleta, así solo se puede escoger entre los tipos disponibles.
+- Usé un campo de fecha para seleccionar el día del alquiler sin tener que escribirlo a mano.
+- Usé una casilla para confirmar que se aceptan las políticas antes de enviar la reserva.
+
+Pruebas de validación del formulario
+
+
+Campo | Dato de prueba | Resultado esperado | Resultado obtenido
+
+Nombre completo | Ana | Acepta el nombre porque tiene 3 caracteres. |
+Nombre completo | Al | No permite enviar porque tiene menos de 3 caracteres. | Aumenta la longitud del texto a 3 caracteres como mínimo (actualmente, el texto tiene 2 caracteres)
+Documento | 12345 | No permite enviar porque tiene menos de 6 dígitos. |
+Documento | 123456 | Acepta el documento porque tiene 6 dígitos. | Aumenta la longitud del texto a 6 caracteres como mínimo(actualmente, el texto tiene 5 caracteres)
+Correo | correo | No permite enviar porque no tiene formato de correo válido. | Incluye un signo "@" en la dirección de correo electrónico. La dirección "correo" no incluye el signo "@".
+Celular | 2123456789 | No permite enviar porque no empieza por 3. | Utiliza un formato que coincida con el solicitado 
+Debe iniciar su número por 3 y debe contener 10 dígitos
+Celular | 3123456789 | Acepta el celular porque empieza por 3 y tiene 10 dígitos. |
+Fecha del alquiler | 2026-10-31 | No permite enviar porque es anterior al 1 de noviembre de 2026. | El valor debe ser igual o posterior a 01/11/2026
+Fecha del alquiler | 2026-11-01 | Acepta la fecha porque está dentro del período permitido. |
+Cantidad de bicicletas | 7 | No permite enviar porque supera el máximo de 6. | El valor debe ser inferior o igual a 6
+Comentarios | 301 caracteres | No permite escribir más de 300 caracteres. |
+Políticas de alquiler | Casilla sin marcar | No permite enviar mientras la casilla esté desmarcada. | Selecciona esta casilla de verificación si quieres continuar.
+
+
+Auditoría de las páginas
+
+1. Idioma del documento:
+Hallazgo: La página principal tenía el atributo lang="en".
+Corrección: Se cambió por lang="es" para indicar que el contenido está en español.
+
+2. Jerarquía de encabezados:
+Hallazgo: En la página principal había un encabezado H3 repetido sobre los recorridos guiados.
+Corrección: Se eliminó el encabezado repetido por el que correspondía, para así evitar la duplicidad de la información.
+
+
+Verificación del contraste de colores
+
+| Combinación | Contraste | Clasificación |
+
+| Blanco / Verde Ruta | 5.31:1 | Apta para texto normal |
+| Blanco / Naranja Pedal | 2.22:1 | No apta |
+| Azul Noche / Naranja Pedal | 7.20:1 | Apta para texto normal |
+| Azul Noche / Crema | 14.83:1 | Apta para texto normal |
+| Gris Asfalto / Crema | 5.57:1 | Apta para texto normal |
+| Verde Ruta / Crema | 4.93:1 | Apta para texto normal |
+| Naranja Pedal / Crema | 2.06:1 | No apta |
+| Blanco / Azul Noche | 15.97:1 | Apta para texto normal |
+Herramienta de comprobación: WebAIM Contrast Checker.
+
+
+Mapa de uso de color
+
+- Crema (#FAF6EF): fondo general.
+- Azul Noche (#14213D): títulos y encabezados.
+- Gris Asfalto (#5B6470): textos secundarios y párrafos.
+- Verde Ruta (#1E7A4F): botones y enlaces con texto blanco.
+- Naranja Pedal (#F39A2B): destacados y botones secundarios con texto Azul Noche.
+
+Link de la page: https://alexxabr-19.github.io/rueda-libre/
+
+
+
+SEMANA 1 - DÍA 3
+
+Herencia comprobada en DevTools (Styles y Computed) para la etiqueta <p>:
+
+- Propiedad que se hereda: color. El párrafo usa el gris asfalto que puse
+  en el body.
+- Propiedad que NO se hereda: background-color. También aparece en el body,
+  pero se ve apagada (en gris) porque no pasa al párrafo. El fondo crema se
+  ve porque es el del body, no porque el párrafo lo haya recibido.
+
+
+Conflicto del enlace:
+Agregué las reglas mencionadas, pero el enlace con la clase activo no se veía verde.
+En DevTools (Styles) la declaración color de .activo salía tachada.
+
+Especificidad de cada selector:
+- #menu a  = (1, 0, 1)  -> 1 id, 0 clases, 1 etiqueta
+- .activo  = (0, 1, 0)  -> 0 id, 1 clase, 0 etiquetas
+
+Causa: un id pesa más que una clase, por eso #menu a gana aunque .activo esté
+escrita después.
+
+Solución: cambié .activo por #menu a.activo = (1, 1, 1), que le gana a (1, 0, 1).
+
+Medición del ancho de una tarjeta:
+- Con box-sizing: border-box: width = 750.4 px
+- Sin border-box (content-box): width = 716.8 px
+
+
+CIERRE SEMANA 1
+
+Lo que construí en cada MiniReto:
+1. Repositorio, estructura de carpetas, index.html base y bitácora.
+2. Página de inicio con listas, imágenes y enlaces.
+3. Página de tarifas con tablas y rutas relativas.
+4. Sitio navegable con menú y pie comunes, y página de reservas.
+5. Estructura semántica (header, nav, main, footer) en las tres páginas.
+6. Formulario de reservas con fieldsets, controles y labels.
+7. Validación nativa del formulario y uso con teclado.
+8. Auditoría de accesibilidad, mapa de color y publicación en GitHub Pages.
+9. Hoja de estilos externa con variables de color, fuentes y espaciado.
+10. Estados :hover y :focus, enlace activo y botones.
+11. Box model: tarjetas, tablas, formulario y contenedor centrado.
+12. Etiqueta "Nuevo", enlace fijo de WhatsApp, limpieza del CSS y publicación v1.0.
+
+Lo que mejoraría:
+- El formulario de reservas todavía no envía los datos a ningún lado; solo valida los campos.
+- Centraría el título (h1) y el pie de página, que quedaron alineados a la izquierda.
+- Adaptaría mejor el diseño a celulares, porque probé sobre todo en pantalla de computador.
+- Para próximos ejercicios, probaría los cambios en las tres páginas apenas los haga, en lugar de dejarlo para el final.
+Fue muy chévere hacer estos ejercicios : D
