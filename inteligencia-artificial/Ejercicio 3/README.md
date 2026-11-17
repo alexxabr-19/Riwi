@@ -1,0 +1,1 @@
+En esta carpeta estará alojado el ejercicio de la página web desarrollada con una herramienta de inteligencia artificial (Lovable en este caso), aplicando lo aprendido en la sesión de Prompt Engineering.

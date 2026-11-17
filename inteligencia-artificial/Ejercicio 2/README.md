@@ -1,0 +1,1 @@
+En esta carpeta estará alojada la actividad "Tres cupos, ocho estudiantes" de Riwi, donde se usó una IA para seleccionar a tres de ocho estudiantes y se comparó cómo cambió la decisión al añadir el contexto del Programa A (preparación para el examen).

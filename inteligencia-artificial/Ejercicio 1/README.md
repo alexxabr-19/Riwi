@@ -1,0 +1,1 @@
+En esta carpeta, estará alojado el ejercicio del algoritmo de python que organiza 3 números de menor a mayor.
