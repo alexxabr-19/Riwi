@@ -1,13 +1,20 @@
 const boton = document.getElementById("boton");
-let listas = []
+let listas = [];
 
 boton.addEventListener("click", function () {
   let input = document.getElementById("input");
-  let lista = document.getElementById("lista");
+  listas.push(input.value);
+  input.value = "";
+  let ul = document.getElementById("lista");
 
-  listas.push(input.value)
-
-  listas.forEach(lista => {
-    console.log(lista)
-  });
+  ul.innerHTML = "";
+  for (let i = 0; i < listas.length; i++) {
+    const p = document.getElementById("parrafo");
+    if (listas[i] == "") {
+      p.innerText = "No se puede agregar un campo vacío";
+    } else {
+      p.innerText = "";
+      ul.innerHTML += `<li>${listas[i]}</li>`;
+    }
+  }
 });
