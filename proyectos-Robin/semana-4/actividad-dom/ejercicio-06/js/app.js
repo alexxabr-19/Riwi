@@ -8,8 +8,7 @@ boton.addEventListener("click", function () {
   resultado.classList.remove(
     "text-danger",
     "text-success",
-    "text-warning",
-    "text-danger",
+    "text-warning"
   );
 
   if (estatura <= 0 || peso <= 0) {
