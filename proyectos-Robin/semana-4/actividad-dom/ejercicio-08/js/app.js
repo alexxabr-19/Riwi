@@ -11,6 +11,7 @@ boton.addEventListener("click", function () {
   for (let i = 0; i < listas.length; i++) {
     const p = document.getElementById("parrafo");
     if (listas[i] == "") {
+      p.classList.add("text-danger", "fs-4")
       p.innerText = "No se puede agregar un campo vacío";
     } else {
       p.innerText = "";
