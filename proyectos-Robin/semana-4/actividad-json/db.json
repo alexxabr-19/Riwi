@@ -1,0 +1,155 @@
+{
+    "productos": [
+        {
+            "nombre": "producto-01",
+            "precio": 20000,
+            "stock": 20
+        },
+        {
+            "nombre": "producto-02",
+            "precio": 30000,
+            "stock": 10
+        },
+        {
+            "nombre": "producto-03",
+            "precio": 40000,
+            "stock": 40
+        }
+    ],
+    "usuarios": [
+        {
+            "nombre": "usuario-01",
+            "correo": "usuario1@gmail.com",
+            "edad": 20
+        },
+        {
+            "nombre": "usuario-02",
+            "correo": "usuario2@gmail.com",
+            "edad": 30
+        },
+        {
+            "nombre": "usuario-03",
+            "correo": "usuario3@gmail.com",
+            "edad": 19
+        }
+    ],
+    "compañias": [
+        {
+            "nombre": "compañía-01",
+            "sector": "sector-01",
+            "ciudad": "cartagena"
+        },
+        {
+            "nombre": "compañía-02",
+            "sector": "sector-02",
+            "ciudad": "barranquilla"
+        },
+        {
+            "nombre": "compañía-03",
+            "sector": "sector-03",
+            "ciudad": "medellín"
+        }
+    ],
+    "empleados": [
+        {
+            "nombre": "empleado-01",
+            "cargo": "desarrollador",
+            "salario": 2500000
+        },
+        {
+            "nombre": "empleado-02",
+            "cargo": "arquitecto",
+            "salario": 3500000
+        },
+        {
+            "nombre": "empleado-03",
+            "cargo": "analista",
+            "salario": 2000000
+        }
+    ],
+    "proveedores": [
+        {
+            "nombre": "proveedor-01",
+            "contacto": 3002991,
+            "ciudad": "cartagena"
+        },
+        {
+            "nombre": "proveedor-02",
+            "contacto": 3002992,
+            "ciudad": "barranquilla"
+        },
+        {
+            "nombre": "proveedor-03",
+            "contacto": 3002993,
+            "ciudad": "medellín"
+        }
+    ],
+    "libros": [
+        {
+            "titulo": "titulo-01",
+            "autor": "autor-01",
+            "anio": 2026
+        },
+        {
+            "titulo": "titulo-02",
+            "autor": "autor-02",
+            "anio": 2025
+        },
+        {
+            "titulo": "titulo-03",
+            "autor": "autor-03",
+            "anio": 2024
+        }
+    ],
+    "cursos": [
+        {
+            "nombre": "nombre-01",
+            "duracion": 10,
+            "nivel": 2
+        },
+        {
+            "nombre": "nombre-02",
+            "duracion": 20,
+            "nivel": 1
+        },
+        {
+            "nombre": "nombre-03",
+            "duracion": 30,
+            "nivel": 3
+        }
+    ],
+    "vehiculos": [
+        {
+            "marca": "marca-01",
+            "modelo": "modelo-01",
+            "placa": "placa-01"
+        },
+        {
+            "marca": "marca-02",
+            "modelo": "modelo-02",
+            "placa": "placa-02"
+        },
+        {
+            "marca": "marca-03",
+            "modelo": "modelo-03",
+            "placa": "placa-03"
+        }
+    ],
+    "pedidos": [
+        {
+            "descripcion": "descripcion-01",
+            "total": 20000,
+            "estado": "en preparación"
+        },
+        {
+            "descripcion": "descripcion-02",
+            "total": 30000,
+            "estado": "en preparación"
+        },
+        {
+            "descripcion": "descripcion-03",
+            "total": 40000,
+            "estado": "en preparación"
+        }
+    ]
+}
